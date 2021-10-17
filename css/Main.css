@@ -1,0 +1,75 @@
+/* Start Variables */
+:root {
+}
+/* End Variables */
+
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ul {
+  list-style: none;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* End Global Rules */
+
+/* Start Components */
+/* ????????????????*/
+/* End Components */
+
+/* Start Project */
+
+.project {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  align-content: center;
+}
+
+.button {
+  padding: 0.1em 2em;
+}
+
+input {
+  margin-top: 3rem;
+}
+
+/* End Project */
